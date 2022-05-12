@@ -1,0 +1,5 @@
+Had troubles as well. On Linux I used Ctrl+X (and Y to confirm) and then I was back on the shell ready to pull/push.
+
+On Windows GIT Bash Ctrl+X would do nothing and found out it works quite like vi/vim. Press i to enter inline insert mode. Type the description at the very top, press esc to exit insert mode, then type :x! (now the cursor is at the bottom) and hit enter to save and exit.
+
+If typing :q! instead, will exit the editor without saving (and commit will be aborted)
